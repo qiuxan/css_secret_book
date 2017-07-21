@@ -1,0 +1,77 @@
+.but1 {
+    padding: 6px 16px;
+	border: 1px solid #446d88;
+	background: #58a linear-gradient(#77a0bb, #58a);
+	border-radius: 4px;
+	box-shadow: 0 1px 5px gray;
+	color: white;
+	text-shadow: 0 -1px 1px #335166;
+	font-size: 20px;
+	line-height: 30px;
+}
+.but2 {
+    padding: 6px 16px;
+	border: 1px solid #446d88;
+	background: #58a linear-gradient(#77a0bb, #58a);
+	border-radius: 4px;
+	box-shadow: 0 1px 5px gray;
+	color: white;
+	text-shadow: 0 -1px 1px #335166;
+	font-size: 125%;/*change from 20px*/
+	line-height: 1.5;/*chage from 30px*/
+}
+.but3 {
+    padding: .3em .8em;
+	border: 1px solid #446d88;
+	background: #58a linear-gradient(#77a0bb, #58a);
+	border-radius: .2em;
+	box-shadow: 0 -0.05em 0.25em gray;
+	color: white;
+	text-shadow: 0 -1px 1px #335166;
+	font-size: 125%;/*change from 20px*/
+	line-height: 1.5;/*chage from 30px*/
+}
+
+.but4 {
+   padding: .3em .8em;
+	border: 1px solid rgba(0,0,0,.1);
+	background: #58a linear-gradient(hsla(0,0%,100%,.2),
+	transparent);
+	border-radius: .2em;
+	box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+	color: white;
+	text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+	font-size: 125%;
+	line-height: 1.5;	
+}
+
+/**
+ * Translucent borders
+ */
+
+.bkg1 {
+	background: url('http://csssecrets.io/images/stone-art.jpg');
+}
+
+.words1 {
+	border: 10px solid hsla(0,0%,100%,.5);
+	background: white;
+	background-clip: padding-box;
+	
+	/* styling */
+	max-width: 20em;
+	padding: 2em;
+	margin: 2em auto 0;
+	font: 100%/1.5 sans-serif;
+}
+
+.multi-bd{
+	width: 100px;
+	height: 60px;
+	margin: 25px;
+	background: yellowgreen;
+	box-shadow: 0 0 0 10px #655,
+            0 0 0 15px deeppink,
+            0 2px 5px 15px rgba(0,0,0,.6);
+}
+
