@@ -75,3 +75,45 @@
             0 2px 5px 15px rgba(0,0,0,.6);
 }
 
+.outline-offset{
+	background: yellowgreen;
+	border: 10px solid #655;
+	outline: 5px solid deeppink;
+}
+.extend-bg-position{
+	background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat bottom right #58a;
+	background-position: right 20px bottom 10px;
+	
+	/* Styling */
+	max-width: 10em;
+	min-height: 5em;
+	padding: 10px;
+	color: white;
+	font: 100%/1 sans-serif;
+}
+
+.extend-bg-origin{
+	background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat bottom right #58a;
+	background-origin: content-box;
+	
+	/* Styling */
+	max-width: 10em;
+	min-height: 5em;
+	padding: 10px;
+	color: white;
+	font: 100%/1 sans-serif;
+}
+.extend-bg-calc{
+	background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat bottom right #58a;
+	background-position: calc(100% - 20px) calc(100% - 10px);
+	
+	/* Styling */
+	max-width: 10em;
+	min-height: 5em;
+	padding: 10px;
+	color: white;
+	font: 100%/1 sans-serif;
+}
